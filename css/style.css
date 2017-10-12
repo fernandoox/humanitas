@@ -1,0 +1,39 @@
+.logoHeader{
+	width: 190px;
+	margin-top: -10px;
+}
+.table > tbody > tr > td {
+     vertical-align: middle !important;
+}
+.bg-blue{
+	background: #1e497e;
+	color: #F8F8F8;
+}
+.bg-blue .text-muted{
+	color: #F8F8F8;
+	width: 100
+}
+.nosotrosSection{
+	border: 10px double #1e497e;
+}
+.telefono{
+	position: fixed;
+	z-index: 10001;
+	top: 0px;
+	right: 0px;
+	background: rgb(26,69,128);
+	color: white;
+	padding: 10px;
+	width: 140px;
+	border-radius: 0px 0px 0px 12px;
+}
+.telefono > span:nth-child(1) {
+	display: block;
+	font-size: 11px;
+}
+.telefono > i{
+	vertical-align: middle;
+}
+.telefono > span:nth-child(2) {
+
+}
