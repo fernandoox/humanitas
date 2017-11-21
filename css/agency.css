@@ -1,17 +1,17 @@
 /*!
- * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+* Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
+* Copyright 2013-2016 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+*/
 
 /*
-  COLORES OFICIALES ANTIGUOS:
-  PRIMARY: fed136
-  ACTIVE: fec503
+COLORES OFICIALES ANTIGUOS:
+PRIMARY: fed136
+ACTIVE: fec503
 
-  COLORES OFICIALES NUEVOS:
-  PRIMARY: 1e497e
-  ACTIVE: 1e49da
+COLORES OFICIALES NUEVOS:
+PRIMARY: 1e497e
+ACTIVE: 1e49da
 */
 body {
   overflow-x: hidden;
@@ -157,10 +157,10 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #F8F8F8;
+  background-color: white;
   border-color: transparent;
   padding: 25px 0px;
-  border-bottom: 5px solid rgb(26, 59, 128);
+  border-bottom: 8px solid rgb(26, 59, 128);
 
 }
 .navbar-custom .navbar-brand {
@@ -187,7 +187,6 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #1e497e;
 }
 .navbar-custom .nav{
   padding: 10px 10px;
@@ -198,21 +197,25 @@ fieldset[disabled] .btn-xl.active {
   text-transform: capitalize;
   font-weight: 400;
   color: rgb(110,110,110);
+  background: transparent !important;
+  transition: all .1s;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #1e49da;
   outline: none;
+  color: #1e497e;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
-  color: white;
-  background-color: #1e497e;
+  color: #1e497e;
+  background: transparent;
+  border-bottom: 4px solid #1e497e;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-  color: white;
-  background-color: #1e49da;
+  color: #1e497e;
+  background: transparent;
+  border-bottom: 4px solid #1e497e;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -221,7 +224,7 @@ fieldset[disabled] .btn-xl.active {
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
     border: none;
-    border-bottom: 5px solid rgb(26, 59, 128);
+    border-bottom: 8px solid rgb(26, 59, 128);
 
   }
   .navbar-custom .navbar-brand {
@@ -231,65 +234,55 @@ fieldset[disabled] .btn-xl.active {
     transition: all 0.3s;
   }
   .navbar-custom .navbar-nav > .active > a {
-    border-radius: 3px;
+    border-radius: 0px;
   }
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #F8F8F8;
+    background-color: white;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
 }
-header {
-  background-image: url('../img/headerFondo.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+.carousel-inner{
+  border-bottom: 15px solid rgb(26, 59, 128);
+}
+#carouselHeader{
   text-align: center;
-  color: white;
+  max-height: 100vh;
 }
-header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
+#carouselHeader .intro-text {
+  top: 200px;
+  position: relative;
+  z-index: 100;
 }
-header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 25px;
-}
-header .intro-text .intro-heading {
+#carouselHeader .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 34px;
   line-height: 35px;
-  margin-bottom: 25px;
+  margin-top: -30px;
   background: rgba(200,200,200,.7);
-  padding: 15px 0px;
   width: 100%;
- color: #1e497e;
+  color: #1e497e;
+  text-align: center;
 }
 @media (min-width: 768px) {
-  header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+  #carouselHeader .intro-text {
+    top: 400px;
+    position: relative;
+    z-index: 100;
   }
-  header .intro-text .intro-lead-in {
+  #carouselHeader .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
   }
-  header .intro-text .intro-heading {
+  #carouselHeader .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 40px;
@@ -311,7 +304,7 @@ section h2.section-heading {
   color: #1e497e;
 }
 section h3.section-subheading {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-weight: 400;
@@ -325,6 +318,8 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  color: #1e497e;
+  font-size: 25px;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;

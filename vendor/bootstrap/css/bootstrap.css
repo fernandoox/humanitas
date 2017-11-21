@@ -2318,7 +2318,7 @@ th {
   border-bottom-width: 2px;
 }
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #f9f9f9;
+  background-color: #e0e0e0;;
 }
 .table-hover > tbody > tr:hover {
   background-color: #f5f5f5;
@@ -6400,21 +6400,21 @@ button.close {
 }
 .carousel-indicators li {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 1px;
+  width: 25px;
+  height: 25px;
+  margin: 1px 30px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
-  border-radius: 10px;
+  background-color: #1e497e;
+  border: 3px solid #fff;
+  border-radius: 50%;
 }
 .carousel-indicators .active {
-  width: 12px;
-  height: 12px;
-  margin: 0;
+  width: 30px;
+  height: 30px;
+  margin: 1px 30px;
   background-color: #fff;
+  border: 3px solid #1e497e;
 }
 .carousel-caption {
   position: absolute;

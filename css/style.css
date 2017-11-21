@@ -1,39 +1,107 @@
-.logoHeader{
-	width: 190px;
-	margin-top: -10px;
+h2 {
+  text-transform: capitalize;
 }
-.table > tbody > tr > td {
-     vertical-align: middle !important;
-}
-.bg-blue{
-	background: #1e497e;
-	color: #F8F8F8;
-}
-.bg-blue .text-muted{
-	color: #F8F8F8;
-	width: 100
-}
-.nosotrosSection{
-	border: 10px double #1e497e;
-}
-.telefono{
-	position: fixed;
-	z-index: 10001;
-	top: 0px;
-	right: 0px;
-	background: rgb(26,69,128);
-	color: white;
-	padding: 10px;
-	width: 140px;
-	border-radius: 0px 0px 0px 12px;
-}
-.telefono > span:nth-child(1) {
-	display: block;
-	font-size: 11px;
-}
-.telefono > i{
-	vertical-align: middle;
-}
-.telefono > span:nth-child(2) {
 
+.logoHeader {
+  width: 190px;
+  margin-top: -10px;
+}
+
+.table>tbody>tr>td {
+  vertical-align: middle !important;
+}
+
+.bg-blue {
+  background: #1e497e;
+  color: #F8F8F8;
+}
+
+.bg-blue .text-muted {
+  color: #F8F8F8;
+  width: 100
+}
+
+.nosotrosSection {
+  border: 10px double #1e497e;
+}
+
+.iconoConocenos {
+  border: 3px solid #1e497e;
+  border-radius: 50%;
+  font-size: 7em;
+}
+
+.telefono {
+  position: fixed;
+  z-index: 1031;
+  top: 0px;
+  right: 0px;
+  background: rgb(26, 69, 128);
+  color: white;
+  padding: 10px;
+  width: 140px;
+  border-radius: 0px 0px 0px 12px;
+}
+
+.telefono>span:nth-child(1) {
+  display: block;
+  font-size: 11px;
+}
+
+.telefono>i {
+  vertical-align: middle;
+}
+
+.telefono>span:nth-child(2) {}
+
+section {
+  padding: 80px 10px;
+  margin: 0px;
+}
+
+article.separador {
+  background: transparent;
+  margin: 0px;
+  padding: 0px;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  height: 400px;
+  vertical-align: middle;
+  padding-top: 240px;
+}
+
+article.separador h2 {
+  text-transform: capitalize;
+  color: #1e497e;
+  font-size: 6em;
+}
+
+td>p {
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+ul#listaInstalaciones li {
+  background: #575757;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1.7em;
+  border: none;
+	padding-left: 100px;
+}
+
+ul#listaInstalaciones li:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  color: #575757;
+  background: white;
+}
+
+p.pDashed {
+  height: 80px;
+  padding-top: 20px;
+  margin: 0px;
+  width: 100%;
+  border-left: 1px dashed #1e497e;
+  border-right: 1px dashed #1e497e;
 }
