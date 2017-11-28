@@ -93,6 +93,7 @@ article.separador h2 {
   text-transform: capitalize;
   color: #1e497e;
   font-size: 6em;
+  padding-left: 50px;
 }
 
 td>p {
