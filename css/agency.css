@@ -649,7 +649,8 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: #1e497e;
+  border: 2px solid white;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -664,7 +665,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #1e497e;
+  opacity: .8;
 }
 .btn:focus,
 .btn:active,

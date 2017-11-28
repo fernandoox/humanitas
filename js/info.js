@@ -6,58 +6,72 @@ Vue.filter('capitalize', function (value) {
 })
 // COMBAK: INFORMACION INSTALACIONES
 var infoInstalaciones = new Vue({
-  el: '#listaInstalaciones',
+  el: '#instalacionesSection',
   data: {
-    instalaciones: [{
-        nombre: 'Lobby',
-        imagen: "XX/500/300/tech"
+    instalaciones: [
+      {
+        nombre: 'Recepción',
+        imagen: "img/instalaciones/recepcion.jpg"
       },
       {
         nombre: 'Habitaciones',
-        imagen: "XX/500/300/animals"
+        imagen: "img/instalaciones/habitaciones.jpg"
       },
       {
         nombre: 'Tomógrafo Helidocoidal',
-        imagen: "XX/500/300/arch"
+        imagen: "img/instalaciones/tomografo.jpg"
       },
       {
         nombre: 'Ultrasonido',
-        imagen: "XX/500/300/nature"
+        imagen: "img/instalaciones/ultrasonido.jpg"
       },
       {
         nombre: 'Quirofano',
-        imagen: "XX/500/300/people"
+        imagen: "img/instalaciones/quirofano.jpg"
       },
       {
         nombre: 'Radiologia Convencional',
-        imagen: "XX/500/300/tech"
+        imagen: "img/instalaciones/radiologia.jpg"
       },
       {
         nombre: 'Sala De Choque',
-        imagen: "XX/500/300/tech"
+        imagen: "img/instalaciones/salaChoque.jpg"
       },
       {
         nombre: 'Hemodialisis',
-        imagen: "XX/500/300/tech"
+        imagen: "img/instalaciones/hemodialisis.jpg"
       },
       {
         nombre: 'Fluoroscopia',
-        imagen: "XX/500/300/tech"
+        imagen: "img/instalaciones/fluroscopia.jpg"
       },
       {
         nombre: 'Laboratorio Clínico',
-        imagen: "XX/500/300/tech"
+        imagen: "img/instalaciones/laboratorio.jpg"
       },
       {
         nombre: 'Densitometría Ósea',
-        imagen: "XX/500/300/tech"
+        imagen: "img/instalaciones/densitometria.jpg"
       },
       {
-        nombre: 'Laboratorio Clínico',
-        imagen: "XX/500/300/tech"
+        nombre: 'Sala de expulsión',
+        imagen: "img/instalaciones/salaExpulsion.jpg"
+      },
+      {
+        nombre: 'Cafetería',
+        imagen: "img/instalaciones/cafeteria.jpg"
       }
-    ]
+    ],
+    srcImagen : "img/instalaciones/recepcion.jpg",
+  },
+
+
+  methods:{
+    getInstalacion : function(newSrcImagen) {
+      this.$data.srcImagen = newSrcImagen;
+    }
   }
+
 })
 
 // COMBAK: INFORMACION DE LOS ESPECIALISTAS

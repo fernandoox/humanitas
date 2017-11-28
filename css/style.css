@@ -1,5 +1,6 @@
 h2 {
   text-transform: capitalize;
+  font-family: Helvetica;
 }
 
 .logoHeader {
@@ -18,11 +19,26 @@ h2 {
 
 .bg-blue .text-muted {
   color: #F8F8F8;
-  width: 100
+  width: 100%;
 }
 
 .nosotrosSection {
-  border: 10px double #1e497e;
+  padding: 10px 120px;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+.nosotrosSection  p{
+  font-size: 24px;
+}
+h3.titleNosotros{
+  text-transform: none;
+  font-family: Helvetica;
+  font-size: 40px;
+}
+h4.valor{
+  text-transform: uppercase;
+  font-family: Helvetica;
+  font-size: 25px;
 }
 
 .iconoConocenos {
@@ -30,7 +46,10 @@ h2 {
   border-radius: 50%;
   font-size: 7em;
 }
-
+section.contacto p{
+  font-weight: bolder;
+  font-size: 28px;
+}
 .telefono {
   position: fixed;
   z-index: 1031;
@@ -80,7 +99,10 @@ td>p {
   font-family: Helvetica;
   font-size: 22px;
 }
-
+ul#listaInstalaciones{
+  margin-top: 17px;
+  border-radius: 0px;
+}
 ul#listaInstalaciones li {
   background: #575757;
   color: white;
@@ -88,6 +110,9 @@ ul#listaInstalaciones li {
   font-size: 1.7em;
   border: none;
 	padding-left: 100px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 0px;
 }
 
 ul#listaInstalaciones li:hover {
