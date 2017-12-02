@@ -1,6 +1,6 @@
 h2 {
   text-transform: capitalize;
-  font-family: Helvetica;
+  font-family: 'Roboto', sans-serif;
 }
 
 .logoHeader {
@@ -24,7 +24,7 @@ h2 {
 
 .nosotrosSection {
   padding: 10px 120px;
-  font-family: Helvetica;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
 .nosotrosSection  p{
@@ -32,13 +32,14 @@ h2 {
 }
 h3.titleNosotros{
   text-transform: none;
-  font-family: Helvetica;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
 }
 h4.valor{
   text-transform: uppercase;
-  font-family: Helvetica;
+  font-family: 'Roboto', sans-serif;
   font-size: 25px;
+  margin-top: 20px;
 }
 
 .iconoConocenos {
@@ -53,13 +54,13 @@ section.contacto p{
 .telefono {
   position: fixed;
   z-index: 1031;
-  top: 0px;
+  top: 125px !important;
   right: 0px;
   background: rgb(26, 69, 128);
   color: white;
   padding: 10px;
   width: 140px;
-  border-radius: 0px 0px 0px 12px;
+  border-radius: 12px 0px 0px 12px;
 }
 
 .telefono>span:nth-child(1) {
@@ -84,9 +85,9 @@ article.separador {
   padding: 0px;
   margin-top: -20px;
   margin-bottom: -10px;
-  height: 400px;
+  height: 450px;
   vertical-align: middle;
-  padding-top: 240px;
+  padding-top: 295px;
 }
 
 article.separador h2 {
@@ -97,7 +98,7 @@ article.separador h2 {
 }
 
 td>p {
-  font-family: Helvetica;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
 }
 ul#listaInstalaciones{
@@ -107,7 +108,7 @@ ul#listaInstalaciones{
 ul#listaInstalaciones li {
   background: #575757;
   color: white;
-  font-family: Helvetica;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.7em;
   border: none;
 	padding-left: 100px;
